@@ -28,7 +28,7 @@ const SearchBar = ({ products }: Item) => {
       <input type="text" onChange={handleChange} />
       {/* You can map through the searchProduct array and display the results */}
       {searchProduct.map(product => (
-        <div key={product.id}>{product.name}</div>
+        <div key={product._id}>{product.title}</div>
       ))}
     </div>
   );
