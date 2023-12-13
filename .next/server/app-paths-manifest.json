@@ -1,4 +1,15 @@
 {
+  "/_not-found": "app/_not-found.js",
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
+  "/[_id]/page": "app/[_id]/page.js",
+  "/accessories/page": "app/accessories/page.js",
+  "/cart/page": "app/cart/page.js",
   "/page": "app/page.js",
-  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js"
+  "/phonecases/page": "app/phonecases/page.js",
+  "/phones/page": "app/phones/page.js",
+  "/profile/page": "app/profile/page.js",
+  "/success/page": "app/success/page.js",
+  "/wishlist/page": "app/wishlist/page.js",
+  "/watches/page": "app/watches/page.js",
+  "/api/checkout/route": "app/api/checkout/route.js"
 }

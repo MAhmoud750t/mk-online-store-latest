@@ -49,12 +49,6 @@ const persistedReducer = persistReducer(persistConfig, proReducer);
 
 export const store = configureStore({
   reducer: { pro: persistedReducer },
-  middleware: (getDefaultMiddleware) =>
-    getDefaultMiddleware({
-      serializableCheck: {
-        ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
-      },
-    }),
 });
 
 export let persistor = persistStore(store);
